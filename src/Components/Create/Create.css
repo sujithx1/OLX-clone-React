@@ -1,0 +1,49 @@
+
+.centerDivWrapper {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center vertically */
+  
+}
+
+
+.centerDiv {
+  background: white;
+    border: 1px solid black;
+    width: max-content;
+    padding: 50px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    color: black;
+  }
+
+  .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    color: #002f34;
+    background-color: darkgray;
+   
+  }
+  
+  .uploadBtn {
+    margin-top: 30px;
+    width: 100%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .uploadBtn:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
+  
